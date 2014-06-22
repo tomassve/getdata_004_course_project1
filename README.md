@@ -14,6 +14,7 @@ The repository holds:
 2. Set the working directory to the directory of this R-script, *setwd("\<YOUR PATH\>/getdata_004_course_project1")*
 3. Download data from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip the data set into *./UCI HAR Dataset*
 4. Run analysis by sourcing the code, *source("./run_analysis.R")*
+5. To read table into R, **tidyTableRead<- read.table(file = "myTidyDataTable.csv")**
 
 ## Analysis
 
