@@ -75,7 +75,7 @@ colnames(myTidyDataTable)[labelsToChange] <- paste("avg", colnames(myTidyDataTab
 # -----------------------------------------------------------------------------
 
 # Save to file
-write.table(myTidyDataTable, file = "myTidyDataTable.csv")
+write.table(myTidyDataTable, file = "myTidyDataTable.txt")
 # -----------------------------------------------------------------------------
 
 # Done. Clean up
